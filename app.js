@@ -28,17 +28,17 @@ app.get("/scores/easy", (req, res) => {
 });
 
 app.get("/scores/medium", (req, res) => {
-  const easyScores = scores
+  const mediumScores = scores
     .filter((score) => score.difficulty === "medium")
     .sort((a, b) => b.score - a.score);
-  res.status(200).send(easyScores);
+  res.status(200).send(mediumScores);
 });
 
 app.get("/scores/hard", (req, res) => {
-  const easyScores = scores
+  const hardScores = scores
     .filter((score) => score.difficulty === "hard")
     .sort((a, b) => b.score - a.score);
-  res.status(200).send(easyScores);
+  res.status(200).send(hardScores);
 });
 
 app.get("/scores/user/:username", (req, res) => {
