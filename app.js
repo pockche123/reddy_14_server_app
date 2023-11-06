@@ -22,8 +22,20 @@ app.get("/scores/leaderboeard",(req,res)=>{
 })
 
 app.post("/score/update", (req,res)=>{
-    const student = req.body;
+// <<<<<<< score
+//     const request = req.body[0];
+//     if (request.student && isNaN(request.student)){
+//         //check if the student is already present in the score.json file
+//         //if yes, add request.score to their score
+//         //else update score.jason with req.body
+//     }
+//     else {
+//         res.status(406).json({message: "enter a valid name please"})
+//     }
+// =======
+//     const student = req.body;
 
+// >>>>>>> main
 })
 
 module.exports = app;
