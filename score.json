@@ -1,10 +1,87 @@
 [
     {
-        "student": "matteo",
-        "score": 0
+        "username": "matteo1",
+        "score": 7,
+        "difficulty": "medium"
     },
     {
-        "student": "paul",
-        "score": 0
+        "username": "paul23",
+        "score": 8,
+        "difficulty": "hard"
+    },
+    {
+        "username": "sarah77",
+        "score": 5,
+        "difficulty": "easy"
+    },
+    {
+        "username": "john123",
+        "score": 6,
+        "difficulty": "easy"
+    },
+    {
+        "username": "emily22",
+        "score": 4,
+        "difficulty": "easy"
+    },
+    {
+        "username": "michael45",
+        "score": 3,
+        "difficulty": "easy"
+    },
+    {
+        "username": "lucas11",
+        "score": 7,
+        "difficulty": "easy"
+    },
+    {
+        "username": "lily88",
+        "score": 9,
+        "difficulty": "medium"
+    },
+    {
+        "username": "david99",
+        "score": 8,
+        "difficulty": "medium"
+    },
+    {
+        "username": "olivia33",
+        "score": 7,
+        "difficulty": "medium"
+    },
+    {
+        "username": "logan66",
+        "score": 6,
+        "difficulty": "medium"
+    },
+    {
+        "username": "ella55",
+        "score": 5,
+        "difficulty": "medium"
+    },
+    {
+        "username": "liam10",
+        "score": 6,
+        "difficulty": "hard"
+    },
+    {
+        "username": "ava44",
+        "score": 7,
+        "difficulty": "hard"
+    },
+    {
+        "username": "noah77",
+        "score": 10,
+        "difficulty": "hard"
+    },
+    {
+        "username": "mia33",
+        "score": 9,
+        "difficulty": "hard"
+    },
+    {
+        "username": "ethan22",
+        "score": 8,
+        "difficulty": "hard"
     }
 ]
