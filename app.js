@@ -4,6 +4,10 @@ const quiz = require('./quiz.json')
 const app = express()
 
 
+app.get("/", (req, res) => {
+    res.status(200).send("Hello team!")
+})
+
 app.get("/quiz", (req, res) => {
     res.status(200).send(quiz);
 })
