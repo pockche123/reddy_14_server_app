@@ -1,86 +1,107 @@
 [
     {
         "country": "Canada",
-        "capital": "Ottawa"
+        "capital": "Ottawa",
+        "flag": "https://www.worldometers.info/img/flags/ca-flag.gif"
     },
     {
         "country": "United Kingdom",
-        "capital": "London"
+        "capital": "London",
+        "flag": "https://www.worldometers.info/img/flags/uk-flag.gif"
     },
     {
         "country": "France",
-        "capital": "Paris"
+        "capital": "Paris",
+        "flag": "https://www.worldometers.info/img/flags/fr-flag.gif"
     },
     {
         "country": "Germany",
-        "capital": "Berlin"
+        "capital": "Berlin",
+        "flag": "https://www.worldometers.info/img/flags/gm-flag.gif"
     },
     {
         "country": "Australia",
-        "capital": "Canberra"
+        "capital": "Canberra",
+        "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
     },
     {
         "country": "India",
-        "capital": "New Delhi"
+        "capital": "New Delhi",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
     },
     {
         "country": "Brazil",
-        "capital": "Brasília"
+        "capital": "Brasília",
+        "flag": "https://www.worldometers.info/img/flags/br-flag.gif"
     },
     {
         "country": "Japan",
-        "capital": "Tokyo"
+        "capital": "Tokyo",
+        "flag": "https://www.worldometers.info/img/flags/ja-flag.gif"
     },
     {
         "country": "Russia",
-        "capital": "Moscow"
+        "capital": "Moscow",
+        "flag": "https://www.worldometers.info/img/flags/rs-flag.gif"
     },
     {
         "country": "China",
-        "capital": "Beijing"
+        "capital": "Beijing",
+        "flag": "https://www.worldometers.info/img/flags/ch-flag.gif"
     },
     {
         "country": "South Korea",
-        "capital": "Seoul"
+        "capital": "Seoul",
+        "flag": "https://www.worldometers.info/img/flags/ks-flag.gif"
     },
     {
         "country": "Italy",
-        "capital": "Rome"
+        "capital": "Rome",
+        "flag": "https://www.worldometers.info/img/flags/it-flag.gif"
     },
     {
         "country": "Spain",
-        "capital": "Madrid"
+        "capital": "Madrid",
+        "flag": "https://www.worldometers.info/img/flags/sp-flag.gif"
     },
     {
         "country": "Mexico",
-        "capital": "Mexico City"
+        "capital": "Mexico City",
+        "flag": "https://www.worldometers.info/img/flags/mx-flag.gif"
     },
     {
         "country": "South Africa",
-        "capital": "Pretoria"
+        "capital": "Pretoria",
+        "flag": "https://www.worldometers.info/img/flags/sf-flag.gif"
     },
     {
         "country": "Argentina",
-        "capital": "Buenos Aires"
+        "capital": "Buenos Aires",
+        "flag": "https://www.worldometers.info/img/flags/ar-flag.gif"
     },
     {
         "country": "Egypt",
-        "capital": "Cairo"
+        "capital": "Cairo",
+        "flag": "https://www.worldometers.info/img/flags/eg-flag.gif"
     },
     {
         "country": "Turkey",
-        "capital": "Ankara"
+        "capital": "Ankara",
+        "flag": "https://www.worldometers.info/img/flags/tu-flag.gif"
     },
     {
         "country": "Nigeria",
-        "capital": "Abuja"
-    },
-    {
-        "country": "Canada",
-        "capital": "Ottawa"
+        "capital": "Abuja",
+        "flag": "https://www.worldometers.info/img/flags/ni-flag.gif"
     },
     {
         "country": "Greece",
-        "capital": "Athens"
+        "capital": "Athens",
+        "flag": "https://www.worldometers.info/img/flags/gr-flag.gif"
+    },
+    {
+        "country": "Norway",
+        "capital": "Oslo",
+        "flag": "https://www.worldometers.info/img/flags/no-flag.gif"
     }
 ]

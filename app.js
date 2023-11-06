@@ -56,4 +56,25 @@ app.post("/score", (req, res) => {
 
 })
 
+app.patch('/update-score', (req, res) => {
+    const { username, score } = req.body;
+  
+    // Find the player with the specified username
+    const player = score.find(player => player.username === username);
+  
+    if (player && player.score < score) {
+      // Update the player's score if the username exists and he got a higher score
+      player.score = score;
+      res.json({ message: 'Score updated' });
+    } else {
+        if (!player){
+            // Add a new player entry if the username doesn't exist
+            score.push(req.body);
+            res.json({ message: 'New player added' });
+        }else{
+            res.json({ message: 'new score was lower than record' });
+        }
+    }
+})
+
 module.exports = app;
