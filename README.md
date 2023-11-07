@@ -9,8 +9,20 @@ There is also a leaderboard that displays the usernames and scores of the player
 
 ## Installation & usage
 
-this can be played online without any need to install anything, simply click on the link provided.
+git clone the repository and run "npm install" in the terminal inside the directory and then run "node inde.js", the terminal will let you know what port the app is listening on.
 
 ## Technologies
 
 the back end of the app was developed using Express.js and the front end was developed using HTML, CSS and JavaScript.
+
+## API
+
+the API was implemented using Express.js. The data is stored in 2 json files, (score.json and country.json), and it processes the data using different methods at different endpoints, such as:
+
+get at "/quiz/questions" => responds with a random country, its capital and its flag from the country.json file.
+
+post at "/score" => checks the body of the request and adds the score to the quiz.json file.
+
+patch at "/score/user/:username" => updates the score of already existing users if conditions are met.
+
+delete at "/places/:country" => deletes the country from the quiz.json file.
