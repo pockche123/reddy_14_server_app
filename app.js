@@ -53,7 +53,8 @@ app.get("/scores/user/:username", (req, res) => {
 
 app.post("/score", (req, res) => {
   const newScore = req.body;
-  if (newScore.username && newScore.score && newScore.difficulty) {
+  if (newScore.username && newScore.score>=0 && newScore.difficulty) {
+    scores.push(newScore);
     res.status(201).send(newScore);
   } else {
     res
