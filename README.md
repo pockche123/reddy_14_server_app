@@ -10,8 +10,8 @@ Reddy 14 Server App is the backend API for a geography game designed to make lea
   - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Technologies](#technology)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -80,5 +80,13 @@ The Reddy 14 Server App provides the following API endpoints:
 For more details on how to use these endpoints, refer to the API documentation or the code in the repository.
 
 ## Technologies
+- **Node.js:** The JavaScript runtime for server-side development.
 
-the back end of the app was developed using Express.js and the front end was developed using HTML, CSS and JavaScript.
+- **Express.js:** A web application framework for Node.js, used to build the server and handle HTTP requests.
+
+- **Cors:** A package for handling Cross-Origin Resource Sharing, which is essential for security when your server is accessed by clients from different origins.
+
+- **Nodemon:** A development dependency for automatically restarting the server during development when files change, making the development process smoother.
+
+### Contributing
+Contributions are limited to reddy_14 Members.
