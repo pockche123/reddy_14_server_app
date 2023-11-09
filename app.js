@@ -3,9 +3,11 @@ const cors = require('cors')
 let quiz = require('./quiz.json')
 const scores = require('./score.json')
 const app = express()
+const logger = require("./logger")
 
 app.use(cors())
 app.use(express.json())
+app.use(logger)
 
 app.get('/', (req, res) => {
   res.status(200).send('Hello team!')
