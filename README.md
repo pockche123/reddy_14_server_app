@@ -59,7 +59,7 @@ Before you begin, ensure you have the following installed on your system:
 1. Start the server:
 
    ```shell
-   npm start
+   npm run dev
    ```
 
    The server will run on http://localhost:3000 by default. You can configure the port and other settings in the `config.js` file.
