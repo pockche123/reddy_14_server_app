@@ -64,7 +64,7 @@ Before you begin, ensure you have the following installed on your system:
 
    The server will run on http://localhost:3000 by default. You can configure the port and other settings in the `config.js` file.
 
-2. Access the API at `http://localhost:3000` to integrate it into your frontend application.
+2. Access the API at `http://localhost:8080` to integrate it into your frontend application.
 
 ## API Endpoints
 
